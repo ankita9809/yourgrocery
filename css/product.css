@@ -1,0 +1,76 @@
+body{
+    margin: 0px 0px 0px ;
+}
+
+nav{
+    list-style-type: None;    
+    margin:0px;
+    padding:15px;
+    overflow:hidden;
+    /* background-color:black; */
+    background: url(../image/nav2.jpeg);
+    height: 150px;
+    text-align:right;
+    
+}
+
+li a{
+    
+	text-align: center;
+	color:black;
+	text-decoration:none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Georgia;
+
+}
+.navbar-nav > li{
+    padding-left:20px;
+    padding-right:10px;
+}
+
+.product{
+    background: url(../image/product3.jpg);
+    background-size: 100% 100%;
+    height: 50vh;
+}
+.text{
+    font-size: 2cm;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card{
+    padding: 0px;
+}
+.fruits{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: cyan;
+}
+.vegetable{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: coral;
+}
+.milk{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: gray; 
+}
+.bread{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: darkseagreen;
+}
+.dairy{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: goldenrod;
+}
+
+
+.page-footer{
+    background: url(../image/footer.png);
+    background-size: 100% 100%;
+    height: 250px;
+    
+ }

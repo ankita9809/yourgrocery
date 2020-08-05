@@ -1,0 +1,98 @@
+body{
+    margin: 0px 0px 0px ;
+}
+
+nav{
+    list-style-type: None;    
+    margin:0px;
+    padding:15px;
+    overflow:hidden;
+    /* background-color:black; */
+    background: url(../image/nav2.jpeg);
+    height: 150px;
+    text-align:right;
+    
+}
+
+li a{
+    
+	text-align: center;
+	color:black;
+	text-decoration:none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Georgia;
+
+}
+.navbar-nav > li{
+    padding-left:20px;
+    padding-right:10px;
+}
+
+.contact{
+    background: url(../image/contact1.jpg);
+    background-size: 100% 100%;
+    height: 50vh;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.a{
+    font-size: 80px;
+    font-family: sans-serif;
+}
+.googlemap{
+    background: url(../image/bg8.jpg);
+    background-size: 100% 100%;
+    margin-bottom: 5px;
+}
+.formpage{
+    background: rgb(179, 238, 238);
+    background-size: 100% 100%;
+    margin-bottom: 5px;
+    height: 100vh;
+    text-align: center;
+}
+
+form{
+    margin-top: 60px;
+    transition: all 4s ease-in-out;
+
+}
+.form-control{
+    text-align: center;
+    margin-left: 60px;
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid crimson;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 16px;   
+}
+
+input{
+    height: 45px;
+}
+
+form .submit{
+    background: crimson;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;   
+}
+
+form .submit:hover{
+    background-color:rgb(65, 21, 30);
+    cursor: pointer;
+} 
+.page-footer{
+    background: url(../image/footer.png);
+    background-size: 100% 100%;
+    height: 250px;
+    
+ }
